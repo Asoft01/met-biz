@@ -1,0 +1,55 @@
+.quiz-question {
+  background-color: rgb(133, 7, 7);
+  color: #fff;
+  height: 100vh;
+}
+
+.quiz-answer {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.quiz-section-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.question {
+  width: 100%;
+}
+
+.card {
+  border-radius: 0px;
+  border: none;
+  color: #333;
+}
+
+.quiz-section-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.answer-box {
+  height: 70px;
+  width: 60%;
+  border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .quiz-question {
+    height: 70vh;
+  }
+  .quiz-answer {
+    height: 30vh;
+  }
+  .answer-box {
+    height: 70px;
+    width: 100%;
+  }
+}

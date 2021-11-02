@@ -1,0 +1,991 @@
+/****Landing Page***/
+
+.nigeria {
+  background-image: url(../images/banners/bsc-bg.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.bsc-uae {
+  background-image: url(../images/banners/landing-uae.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.semp-online {
+  background-image: url(../images/banners/bg8-2.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.one-week-mba {
+  background-image: url(../images/banners/tbg01.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd {
+  background-image: url(../images/banners/pgd_bg.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.semp {
+  background-image: url(../images/banners/semp-bg.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.fin {
+  background-image: url(../images/banners/bg-fin.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.ipdg-dm {
+  background-image: url(../images/banners/International-PGD-in-Digital-Marketing-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-proj {
+  background-image: url(../images/banners/International-PGD-in-Project-Management-min.jpg);
+  background-color: #fff !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-op {
+  background-image: url(../images/banners/International-PGD-in-Operations-Management-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-mkt {
+  background-image: url(../images/banners/International-PGD-in-Marketing-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-itm {
+  background-image: url(../images/banners/International-PGD-in-Information-Technology-Management-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-hm {
+  background-image: url(../images/banners/International-PGD-in-Human-Resource-Management-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-fm {
+  background-image: url(../images/banners/International-PGD-in-Financial-Management-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-esb {
+  background-image: url(../images/banners/International-PGD-in-Enterprise-Software-and-Business-Infrastructure-min.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.pgd-sa {
+  background-image: url(../images/banners/International-PGD-in-Strategic-Information-and-Systems-Analysis.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.ipgd-bm {
+  background-image: url(../images/banners/International-PGD-in-Business-and-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.ipdg-sm {
+  background-image: url(../images/banners/International-PGD-in-Strategic-Information-and-Knowledge-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.hrmo {
+  background-image: url(../images/banners/bg-hrm.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.bus-admin {
+  background-image: url(../images/banners/SEMP-Business-Management.jpg);
+  background-color: #fff !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.dev-stu {
+  background-image: url(../images/banners/SEMP-Development-Studies.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.bus-ent {
+  background-image: url(../images/banners/SEMP-Business-Enterprise-Software.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.info-mgt {
+  background-image: url(../images/banners/SEMP-Information-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.fin-mgt {
+  background-image: url(../images/banners/SEMP-Financial-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.info-sys {
+  background-image: url(../images/banners/SEMP-Information-System.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.inter {
+  background-image: url(../images/banners/SEMP-International-Marketing-Strategy.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.semp-it {
+  background-image: url(../images/banners/SEMP-Information-Technology.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.opera {
+  background-image: url(../images/banners/SEMP-Operation-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.rmethod {
+  background-image: url(../images/banners/SEMP-Research-Methodology.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.proj {
+  background-image: url(../images/banners/SEMP-Project-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.stbm {
+  background-image: url(../images/banners/SEMP-Strategic-Business-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.mba {
+  background-image: url(../images/banners/bg4-2.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.semp-hrm {
+  background-image: url(../images/banners/SEMP-Human-Resources-Management.jpg);
+  background-color: #fff !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.form-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 35px;
+  padding: 20px;
+}
+
+.landing-tagline {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.attend-landing {
+  padding: 50px 0;
+  background-color: #fff !important;
+}
+/* .form-arrow {
+    background: #00acb3 url(../../images/icons/down-arrow-landing.png) no-repeat scroll center center;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: -55px 0 0;
+} */
+
+.why_msbm .img-semp {
+  width: 15%;
+  text-align: center;
+}
+
+.landing-page-form {
+  color: #fff;
+  padding: 80px 0 50px 0;
+  position: relative;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    transparent 100%
+  ) !important;
+  margin-bottom: -1px;
+}
+
+.semp-dubai-content {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.semp-dubai-content .badge-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  padding: 10px 30px;
+  border: 1px solid #c1c1c1;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.course-fee-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.course-fee-list li {
+  padding: 10px 0;
+}
+
+.landing-overlap-item,
+.landing-overlap {
+  background-color: #fff;
+}
+
+.numero-uno {
+  text-shadow: #000 1px 1px 1px;
+  font-size: 45px;
+}
+
+.numero-unoxx {
+  text-shadow: #000 1px 1px 1px;
+  font-size: 64px;
+  padding-bottom: 78px;
+}
+
+.sub-numero-unoxx {
+  text-shadow: #000 1px 1px 1px;
+  /* background-color: white; */
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.numero-uno2 {
+  text-shadow: #000 1px 1px 1px;
+  font-size: 70px;
+}
+
+.sub-numero-uno {
+  text-shadow: #000 1px 1px 1px;
+}
+
+.landing-features .sub-text {
+  font-size: 16px;
+}
+
+.landing-statistics {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.stat-heading {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+.landing-brand {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.available-courses {
+  background-color: #fff;
+}
+
+.stat-text p {
+  margin: 0;
+}
+
+.landing-info-content {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.landing-info-content h6 {
+  font-weight: 600;
+}
+/* .landing-features {
+    background-color: #f5f5f5;
+} */
+
+.landing-features {
+  background-color: #fff;
+}
+
+.landing-payment {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.client-heading {
+  padding-bottom: 10px;
+}
+
+.landing-cta {
+  padding: 30px 0;
+  background-color: #f5f5f5 !important;
+}
+
+.landing-cta .land-num {
+  font-size: 1.5rem;
+}
+
+.landing-camp {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.training-image {
+  margin-bottom: 10px;
+}
+
+.training-image img:hover {
+  box-shadow: 2px 3px 7px #ccc;
+}
+
+.final-landing {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #fff;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+  background-color: transparent;
+  width: 263px;
+  height: 240px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 0 auto;
+  /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+/* Style the back side */
+
+.flip-card-back {
+  background-color: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.landing-main-grey {
+  background-color: #f5f5f5;
+}
+
+.landing-video {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.landing-video-white {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.price-box {
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+}
+
+.black-box {
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.black-box h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.landing-video-heading {
+  font-weight: 700;
+}
+
+.landing-video-img {
+  width: 10%;
+}
+
+.landing-video .media {
+  margin-bottom: 25px;
+}
+
+.landing-video-white .media {
+  margin-bottom: 25px;
+}
+
+.landing-certificate .media {
+  margin-bottom: 43px;
+}
+
+.landing-accordion {
+  background-color: white !important;
+  padding: 50px 0;
+}
+
+.landing-certificate {
+  background-color: white !important;
+  padding: 50px 0 30px 0;
+}
+
+.landing-testimonial {
+  padding: 50px 0;
+}
+
+.landing-counter {
+  background-image: url(../../images/banners/worldmap.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  padding: 100px 0;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.landing-testimonial {
+  padding: 50px 0;
+}
+
+.img-certify {
+  width: 70% !important;
+}
+
+.img-add {
+  width: 30%;
+}
+
+.img-testify {
+  width: 20% !important;
+}
+
+.counter-text {
+  padding-bottom: 30px;
+}
+
+.counter-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.mba-header {
+  text-shadow: #000 1px 1px 1px;
+  font-size: 48px;
+}
+
+.tuition {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.tuition h3 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.center-line {
+  width: 60px;
+  height: 2px;
+  background: #333;
+  display: block;
+  margin: 0px auto;
+}
+
+.degree-info-accordion .btn-link {
+  border: none;
+  text-align: left;
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.semp-dubai-content .img-semp-1 {
+  width: 10%;
+}
+
+/* .degree-info-accordion .btn-link:hover {
+        border: none;
+        text-align: left;
+        color: #000;
+        font-size: 25px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+     */
+.landing-accredit {
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.landing-accredit-img:hover {
+  filter: invert(0.5);
+}
+
+.footer-landing {
+  background-color: #151515;
+  padding: 20px;
+}
+
+.foot-disclaimer {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.landing-inner-carousel {
+  padding-top: 50px;
+}
+
+.landing-inner-carousel p {
+  font-size: 14px;
+}
+
+.btn-link {
+  color: #000;
+  border: 2px solid #000;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-landing-link {
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-landing-link:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #ad0000;
+}
+
+.btn-link:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-dark {
+  border: 2px solid #000;
+}
+
+.btn-dark:hover {
+  border: 2px solid #fff;
+}
+
+ul.header-list {
+  list-style-image: url(../../images/banners/right.png);
+  padding-left: 55px;
+}
+
+ul.header-list li {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 0 15px;
+}
+
+.landing-overlap-item .img-fluid {
+  width: 15%;
+  filter: invert(0.4);
+}
+
+.landing-overlap-item h3 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.x-price {
+  text-decoration: line-through;
+  color: #bebebe;
+}
+
+.over-lap-content {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.a-item-title--light {
+  color: #727376;
+}
+
+.landing-key-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.main-overlap-content {
+  margin: 1.5rem 0;
+}
+
+.main-overlap-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.m-key-info__content {
+  font-weight: bold;
+}
+/* ul.header-list-sm {
+    list-style-image: url(../../images/banners/right.png);
+    padding-left: 35px;
+} */
+
+.img-tuition {
+  width: 40px;
+  filter: invert(0.4);
+}
+
+.student-category-section {
+  padding: 50px 0;
+}
+
+.student-category-section .card-header {
+  border-bottom: none;
+}
+
+.landing-testimonial .text {
+  text-transform: capitalize;
+}
+
+.landing-video-heading {
+  text-transform: capitalize;
+}
+
+.student-category-section {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-overlap {
+    background-color: white;
+    margin: 0px;
+    padding: 50px 0;
+  }
+  .numero-uno {
+    text-shadow: #000 1px 1px 1px;
+    font-size: 40px !important;
+  }
+  .numero-uno2 {
+    text-shadow: #000 1px 1px 1px;
+    font-size: 40px !important;
+  }
+  .mba-header {
+    font-size: 30px;
+  }
+  .tuition h3 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .tuition-title {
+    font-size: 14px;
+  }
+
+  .stat-text p {
+    margin: 0;
+    font-size: 12px;
+  }
+  .tpadd {
+    padding-top: 15px;
+  }
+  .landing-tagline h1 {
+    font-size: 22px;
+  }
+  .m-key-info__icon {
+    padding-right: 15px;
+  }
+  .counter-text h2 {
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+  /* .student-cat-pie{
+            height: 400px;
+        } */
+}
+
+.course-list-msbm-prog {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .landing-overlap {
+    margin: 0 auto;
+  }
+  .landing-overlap-item {
+    background-color: #fff;
+    padding: 45px 0px 20px 0px;
+    margin-top: -62px;
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  .overlap-container {
+    position: relative;
+  }
+  .landing-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .landing-position {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .landing-statistics {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0 120px 0;
+  }
+  .landing-features-content {
+    padding-top: 100px;
+  }
+  .add-bord {
+    border-right: 1px solid #333;
+  }
+  .main-overlap-content_overlap_separator {
+    border-left: solid 1px #cacacc;
+    display: flex;
+    max-height: 2em;
+    padding: 0;
+  }
+  .main-overlap-content {
+    justify-content: center;
+  }
+  .main-overlap-content_overlap_separator {
+    flex: 0;
+  }
+  .main-overlap-content-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .m-key-info__icon {
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .counter-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}

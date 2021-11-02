@@ -1,0 +1,617 @@
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../fonts/Gotham_Medium.otf) format("OpenType");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* font-family: Gotham-Medium, Arial, Helvetica, sans-serif; */
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="text"]:active {
+  outline: 0px !important;
+  /* -webkit-appearance: none; */
+  box-shadow: none !important;
+}
+
+input[type="checkbox"]:hover,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+  appearance: auto;
+  -webkit-appearance: auto;
+}
+
+select:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+}
+.navbar-border {
+  border-bottom: 10px solid #3498db;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+}
+/* .navbar-link:hover {
+  border-bottom: 5px solid #2c3e50;
+} */
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-white-light {
+  background-color: #fcfcfc;
+}
+
+.bg-grey {
+  background-color: #edf2f7;
+}
+.bg-blue {
+  background-color: #2c3e50;
+}
+
+.sort-arrange-options {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.sort-options {
+  display: flex;
+}
+
+.card-footer {
+  background-color: #fff;
+}
+
+.btn-linear-blue {
+  background-color: #0d9ad6;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    #287ab9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: -moz-linear-gradient(
+    90deg,
+    #287ab9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: -o-linear-gradient(
+    90deg,
+    #287ab9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: linear-gradient(
+    90deg,
+    #287ab9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: #fff;
+}
+
+.btn-linear-blue:hover {
+  background-color: #287ab9;
+  color: #fff;
+}
+
+.search-card {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.padding-space-t-b {
+  padding: 50px 0;
+}
+.margin-space-b {
+  margin-bottom: 2rem;
+}
+
+.courses-cat h5 {
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+
+.heading-text {
+  font-size: 1.5rem;
+}
+
+.badge-text {
+  color: #fff;
+  /* background-color: #007bff; */
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.color-text-blue {
+  color: #3498db;
+}
+
+.img-icons {
+  width: 35px;
+}
+
+.card-course {
+  display: flex;
+  align-items: center;
+}
+.course-categories .card {
+  border: 1px solid #fff;
+}
+.course-categories {
+  background-color: #0e467e;
+}
+
+.course-categories a {
+  color: #333;
+}
+
+.course-categories a:hover .card-cat {
+  color: #0e467e;
+  border: 1px solid #0e467e;
+}
+
+.course-categories a:hover {
+  text-decoration: none;
+}
+
+.position-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.form-adjust-field {
+  height: 50px;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #e9e9e9;
+  transition-duration: 0.3s;
+}
+.btn {
+  border-radius: 3px;
+}
+.img-logo {
+  width: 120px;
+}
+.login-card {
+  padding: 30px 0;
+  border: none;
+}
+
+.margin-spacing-bottom {
+  margin-bottom: 20px;
+}
+
+.btn-accordion {
+  border: none;
+  text-align: left;
+  color: #333;
+  font-size: 18px;
+  /* font-weight: 700; */
+  text-decoration: none;
+}
+
+.sort-options li {
+  padding: 0 10px;
+}
+.sort-options li a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.sponsored h5 {
+  font-size: 1rem;
+}
+.sponsored p {
+  font-size: 12px;
+}
+
+.sponsored .img-featured {
+  width: 40px;
+  height: 40px;
+}
+
+.sponsored .card-title {
+  font-size: 0.8rem;
+}
+
+#jobAccordion [aria-expanded="true"] .fa-chevron-down {
+  display: none;
+}
+
+#jobAccordion [aria-expanded="false"] .fa-chevron-up {
+  display: none;
+}
+
+.btn-accordion:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.job-listing-sect .card {
+  border: 0;
+}
+
+.login-social-links a {
+  color: #777;
+}
+
+.login-social-links a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.search-sect {
+  background-image: url(../images/fm-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-sect {
+  background-color: #0e467e;
+  height: 100%;
+}
+
+.forgotten-password {
+  color: #3498db;
+}
+.forgotten-password:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer,
+.main-footer {
+  flex-shrink: 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.footer-sect {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-sect h4 {
+  font-size: 1.3rem;
+}
+
+.list-flex {
+  padding-top: 20px;
+  display: flex;
+}
+
+.list-flex li {
+  padding: 0 10px;
+}
+
+.list-flex li:first-child {
+  padding-left: 0;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-sect li a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer-links li {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.footer-links li a {
+  color: #333;
+}
+
+.footer-links li a:hover {
+  color: #3498db;
+}
+
+.text-blue {
+  color: #3498db;
+}
+
+.copyright-text {
+  font-size: 12px;
+}
+
+.img-featured {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.top-footer {
+  background: url(../images/call-to-action.jpg) #03498d center right no-repeat;
+  height: auto;
+  line-height: 1.2;
+  font-size: 1rem;
+  padding: 67px 0;
+  text-align: left;
+}
+
+.career-card {
+  margin-bottom: 15px;
+}
+
+.full {
+  max-width: 1440px;
+  /* padding: 0 15px; */
+  margin: 0 auto;
+}
+.top-footer .top-footer-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.big-top-footer-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.full:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.img-box-shadow {
+  box-shadow: 3px 4px 7px #ccc;
+}
+
+.featured-job {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.view-more-links {
+  padding-top: 50px;
+}
+
+.view-more-links a {
+  color: #fff;
+}
+
+.view-more-links-black a {
+  padding-top: 50px;
+  color: #000;
+}
+
+.view-more-links a:hover {
+  color: #3498db;
+}
+
+.featured-job:last-child {
+  padding: 20px 0;
+  border-bottom: none;
+}
+
+.country-location {
+  background-color: #edf2f7;
+}
+
+.country-list {
+  column-count: 3;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.country-list li a {
+  color: #333;
+}
+
+.img-login-icon {
+  width: 30px;
+}
+
+.login-flex {
+  display: flex;
+}
+
+.login-flex span {
+  margin: auto;
+  display: table;
+}
+
+.login-social-card {
+  padding: 0.5rem;
+}
+.job-list-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-list-card {
+  margin-bottom: 20px;
+}
+
+.inactive-fav {
+  color: #3498db;
+}
+.active-fav {
+  color: #da0a0a;
+}
+.job-form-sort {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+/***Courses****/
+.popular-course-list {
+  display: flex !important;
+}
+.popular-course-list li {
+  padding-left: 10px;
+}
+
+.popular-course-list li:first-child {
+  padding-left: 0px;
+}
+
+.popular-course-list li a {
+  color: #fff;
+  font-size: 12px;
+}
+
+/***Media Screen***/
+@media screen and (max-width: 768px) {
+  /* .img-featured {
+    display: none;
+  } */
+  .job-listing-sect h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .job-form-sort {
+    display: block;
+    text-align: center;
+  }
+
+  .sort-options {
+    display: flex;
+    justify-content: center;
+  }
+  .sort-arrange-options {
+    display: block;
+    text-align: center;
+  }
+  .img-icons {
+    width: 20px;
+  }
+  .intro-content {
+    text-align: center;
+  }
+
+  .intro-content h6 {
+    line-height: 25px;
+  }
+  .top-footer {
+    /* background: #03498d; */
+    background: #333;
+    height: auto;
+    line-height: 1.2;
+    font-size: 1rem;
+    padding: 67px 0;
+    text-align: center;
+  }
+  .top-footer .top-footer-title {
+    font-size: 1.2rem;
+    line-height: 32px;
+  }
+  .big-top-footer-title {
+    font-size: 0.9rem;
+  }
+  .form-space {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form-no-padding-r-l {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
